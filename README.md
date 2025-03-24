@@ -30,7 +30,7 @@ The Django project on the House Price Prediction System utilizes essential compo
           * It will create a link: http://127.0.0.1:8000/
   * Create templates folder
       - Created html file called `home.html`
-  * Create `views.py` under HousePricePrediction folder
+  * Under `urls.py`
       - ```
             """
             Class-based views
@@ -46,9 +46,19 @@ The Django project on the House Price Prediction System utilizes essential compo
 
             urlpatterns = [
                 path('admin/' admin.site.urls),
-                path('', views.home),
+                path('', views.home),    # add views.home
             ]
-        ``` 
+        ```
+  * Create `views.py` under HousePricePrediction folder
+      - ```
+            from django.shortcuts import render;
+
+            def home(request):
+                return render(request, "home.html")
+        ```
+  * Under Setting.py
+      - TEMPLATE:
+          `'DIRS': [os.path.join(BASE_DIR, 'templates')],`  
    
 
 
