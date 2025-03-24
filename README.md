@@ -27,6 +27,7 @@ The Django project on the House Price Prediction System utilizes essential compo
       - Start project: `python -m django startproject HousePricePrediction`
       - Change the directory: `cd HousePricePrediction`
       - `python manage.py runserver`
+          * It will create a link: http://127.0.0.1:8000/
    
 
 
