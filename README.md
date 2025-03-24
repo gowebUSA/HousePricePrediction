@@ -28,6 +28,27 @@ The Django project on the House Price Prediction System utilizes essential compo
       - Change the directory: `cd HousePricePrediction`
       - `python manage.py runserver`
           * It will create a link: http://127.0.0.1:8000/
+  * Create templates folder
+      - Created html file called `home.html`
+  * Create `views.py` under HousePricePrediction folder
+      - ```
+            """
+            Class-based views
+                1. Add an import: from other_app.views import Home
+                2. Add a URL ro urlpatterns: path('', Home.as_view(), name='home')
+            Including another URLconf
+                1. Import the include() function: from django.urls import include, path
+                2. Add a URL to urlpatterns: path('blog/', include('blog.urls'))
+            """
+            from django.contrib import admin
+            from django.urls import path
+            from . import views
+
+            urlpatterns = [
+                path('admin/' admin.site.urls),
+                path('', views.home),
+            ]
+        ``` 
    
 
 
