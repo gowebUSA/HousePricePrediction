@@ -65,3 +65,4 @@ def result(request):
     price = f"The predicted price is ${pred:,}"
 
     return render(request, "predict.html", {"result2": price})
+
