@@ -61,6 +61,9 @@ The Django project on the House Price Prediction System utilizes essential compo
           `'DIRS': [os.path.join(BASE_DIR, 'templates')],`  
    
 
+## Troubleshootinh
+- For installing Django: `pip install --user django`
+- For upgrading pip: `python -m pip install --upgrade --user pip`
 
 ## Reference
 - USA houses dataset: [https://www.kaggle.com/vedavyasv/usa-...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWlJX2p3VWdic0xnaXlIdnFGZEpDZEEtQXhVUXxBQ3Jtc0ttb1pBbno5ZzlrVVRmWlpHcWx4ZlNMQnpxSGt5X051Uk1KT0JnTVNGSTd2Znc3VFFQMWNHVTM2dXNuYnpvNF94TXBFQkJXbFVBVW4tRWh1NDNVbU9EOWxOcTlzN3FCN1JmUnN4eFV5eWRrSHZvWlVQZw&q=https%3A%2F%2Fwww.kaggle.com%2Fvedavyasv%2Fusa-housing&v=mkUt6-y1MSs)
