@@ -61,7 +61,7 @@ The Django project on the House Price Prediction System utilizes essential compo
           `'DIRS': [os.path.join(BASE_DIR, 'templates')],`  
    
 
-## Troubleshootinh
+## Troubleshooting
 - For installing Django: `pip install --user django`
 - For upgrading pip: `python -m pip install --upgrade --user pip`
 
