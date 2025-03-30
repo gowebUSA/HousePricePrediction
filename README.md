@@ -32,7 +32,6 @@ The Django project on the House Price Prediction System utilizes essential compo
       - Created html file called `home.html`
   * Under `urls.py`
       - ```
-            """
             Class-based views
                 1. Add an import: from other_app.views import Home
                 2. Add a URL ro urlpatterns: path('', Home.as_view(), name='home')
