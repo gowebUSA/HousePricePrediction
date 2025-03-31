@@ -66,3 +66,4 @@ def result(request):
 
     return render(request, "predict.html", {"result2": price})
 
+

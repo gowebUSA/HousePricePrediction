@@ -21,10 +21,13 @@
             border-radius:5%;
         }
         div{
-            padding:15px;
+            padding:10px;
         }
         h2{
             font-size:30px;
+            color:#000080;
+        }
+        h3{
             color:DarkRed;
         }
         h1{
@@ -34,7 +37,7 @@
             background-color:#000000;
             color:white;
             cursor:pointer;
-            padding: 16px 32px;
+            padding: 10px 32px;
         }
         body{
             background-image:url("{%static 'bg-image2.png'%}");
@@ -46,7 +49,8 @@
 </head>
 <body style="text-align:center;">
   <div class="main">
-      <h1>Please enter the following values:</h1>
+      <h2>Please enter the following values:</h2>
+      <p>Insert values from the U.S. Housing Data grouped by rows.</p>
       <form action="result">
           <div class="row">
               <div class="col-sm-4" style="background-color:Bisque;">
@@ -68,12 +72,12 @@
                   <input type="text" name="n4">
               </div>
               <div class="col-sm-4" style="background-color:RosyBrown;">
-                  <p> Avg.Area Population <br/> <br /></p>
+                  <p> Avg.Area Population <br/></p>
                   <input type="text" name="n5">
               </div>
               <div class="col-sm-4" style="background-color:gainsboro;">
                   <p><font color="black">U.S. Housing Data
-                      <br /> <br />
+                      <br />
                       <a href="https://www.kaggle.com/datasets/vedavyasv/usa-housing" target="_blank" font-color="white">
                           Click here
                       </a>
@@ -83,12 +87,17 @@
           <div class="row">
               <input type="submit" value="PREDICT">
           </div>
-              <div class="row">
+<!--          <div class="row">-->
 <!--              <button onclick="location.reload()">Refresh</button>-->
-          </div>
+<!--          </div>-->
       </form>
       <div class="row">
-          <h2>{{ result2 }}</h2>
+<!--          <h2>{{ result2 }}</h2>-->
+<!--          <a href="{{ home.html }}">Back to Home</a>-->
+          {% if result2 is not None %}
+            <p><h3>{{ result2 }}</h3></p>
+            Reset by going back to Home and start over. <a href="/">Click here.</a>
+          {% endif %}
       </div>
   </div>
 
