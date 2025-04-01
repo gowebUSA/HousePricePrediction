@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72f6d48-5623-4d72-a5f4-421d7f6aab19" name="Changes" comment="Starting project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HousePricePrediction/HousePricePrediction/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HousePricePrediction/HousePricePrediction/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HousePricePrediction/templates/predict.html" beforeDir="false" afterPath="$PROJECT_DIR$/HousePricePrediction/templates/predict.html" afterDir="false" />
-    </list>
+    <list default="true" id="d72f6d48-5623-4d72-a5f4-421d7f6aab19" name="Changes" comment="Starting project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743375433720</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Starting project">
+      <option name="closed" value="true" />
+      <created>1743442368718</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743442368718</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
