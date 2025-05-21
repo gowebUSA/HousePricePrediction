@@ -3,12 +3,13 @@ The Django project on the House Price Prediction System utilizes essential compo
 
 ## Requirements
 - Python libraries and framework
-    - Numpy
-    - Pandas
-    - Sklearn
-    - Django
-    - IDE (VSCode, IntelliJ, Pycharm)
-    - Chrome browser
+    - Numpy: numerical computing tools
+    - Pandas: data analysis and manipulation
+    - Sklearn: statistical modeling
+    - Django: rapid development of secure websites
+    - Pycharm: IDE (VSCode, IntelliJ)
+    - Chrome: browser to showcase the program.
+    - GitHub: back up source codes and documentation.
 
 
 ## Steps

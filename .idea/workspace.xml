@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72f6d48-5623-4d72-a5f4-421d7f6aab19" name="Changes" comment="Starting project" />
+    <list default="true" id="d72f6d48-5623-4d72-a5f4-421d7f6aab19" name="Changes" comment="Starting project">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +29,12 @@
     &quot;assignee&quot;: &quot;gowebUSA&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gowebUSA/HousePricePrediction.git&quot;,
-    &quot;accountId&quot;: &quot;7e62ceaa-0e78-489b-9350-07ac41120e2b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gowebUSA/HousePricePrediction.git",
+    "accountId": "044acd89-3920-40a5-9ab0-eaf56d3e4a51"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -183,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747840445638</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Starting project">
+      <option name="closed" value="true" />
+      <created>1747840471275</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747840471275</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
