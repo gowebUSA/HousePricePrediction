@@ -74,4 +74,4 @@ The Django project on the House Price Prediction System utilizes essential compo
 - NumPy: https://anaconda.org/anaconda/numpy
 - Pandas: https://anaconda.org/anaconda/pandas
 - Sklearn: [https://scikit-learn.org/stable/insta...](https://scikit-learn.org/stable/install.html)
-- Youtube: [https://www.youtube.com/watch?v=mkUt6-y1MSs&list=PL...](https://www.youtube.com/watch?v=mkUt6-y1MSs&list=PL-QRwhZe4lltW73TjetSj_ppKyddWs4W6)
+
